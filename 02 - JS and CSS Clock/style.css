@@ -18,15 +18,15 @@ html {
   .clock {
     width: 30rem;
     height: 30rem;
-    border: 20px solid #121212;
-    background-color: #4f4f4f6f;
+    border: 20px solid #f1f1f1;
+    background-color: #ffffff6f;
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
     padding: 2rem;
     box-shadow:
       0 0 0 4px rgba(0,0,0,0.1),
-      inset 0 0 0 3px #212121,
+      inset 0 0 0 3px #f1f1f1,
       inset 0 0 10px black,
       0 0 10px rgba(0,0,0,0.3);
   }
@@ -39,15 +39,15 @@ html {
   }
 
   .center {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    background-color: #121212;
+    background-color: #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
   }
 
   .hand {
@@ -64,7 +64,7 @@ html {
   }
 
   .second-hand {
-    border-radius: 50%;
+    border-radius: 30%;
   }
 
   .hour-hand {
