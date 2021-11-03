@@ -56,8 +56,23 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
   }
+
+  .panel > *:first-child {
+      transform: translateY(-100%);
+  }
+
+  .panel.open-active > *:first-child {
+    transform: translateY(0);
+}
+
+  .panel >*:last-child {
+      transform: translateY(100%);
+  }
+
+  .panel.open-active > *:last-child {
+    transform: translateY(0);
+}
 
   .panel p {
     text-transform: uppercase;
@@ -71,5 +86,6 @@ html {
   }
 
   .panel.open {
+      flex: 5;
     font-size: 40px;
   }
