@@ -53,7 +53,8 @@
   
       // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
       // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-      const aTags = document.querySelectorAll('.mw-category a');
+      const arr = Array.from(document.querySelectorAll('.mw-category a'));
+      const de = arr.map( tag => tag.textContent);
   
   
       // 7. sort Exercise
